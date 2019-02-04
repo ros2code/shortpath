@@ -1,0 +1,16 @@
+# Shortest Path Finder
+
+Python code to find the shortest path between two given points in the matrix
+
+##  How to Run
+
+python shortestPathFinder.py 
+
+usage: shortestPathFinder.py [-h] [-d] [-p]
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -d, --debug         Debug mode
+  -p, --print_result  Print shortest path in matrix
+
+  
