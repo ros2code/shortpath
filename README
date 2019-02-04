@@ -2,11 +2,16 @@
 
 Python code to find the shortest path between two given points in the matrix
 
-##  How to Run
 
-python shortestPathFinder.py 
+## Prerequisites
 
-usage: shortestPathFinder.py [-h] [-d] [-p]
+This code works with Python 3.6.0. It has a dependency on colorama module for python
+If colorama is not installed, use "pip install colorama" for installing the package
+
+
+## Running the code
+
+usage: python shortestPathFinder.py [-h] [-d] [-p]
 
 optional arguments:
   -h, --help          show this help message and exit
@@ -14,3 +19,11 @@ optional arguments:
   -p, --print_result  Print shortest path in matrix
 
   
+## Testscripts for shortest path finder 
+
+usage: python matrixTest.py
+
+Input files for the testscript is in json format covering the Matrix dimensions, matrix data 
+and start and end points to traverse. The matrixTest.py script invokes shortestPathFinder to
+validate whether the results are expected.
+The json files are read from test folder.
